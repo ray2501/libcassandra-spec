@@ -22,7 +22,7 @@ A modern, feature-rich, and highly tunable C/C++ client library for Apache
 Cassandra using exclusively Cassandra's native protocol and Cassandra Query
 Language.
 
-%define lib_name libcassandra2_8_0
+%define lib_name libcassandra2
 
 %package -n %{lib_name}
 Summary:        Shared library from C/C++ Driver for Apache Cassandra
@@ -99,12 +99,12 @@ rm -rf %{buildroot}
 %files -n %{lib_name}
 %defattr(-,root,root,-)
 %{_libdir}/libcassandra.so.%{version}
+%{_libdir}/libcassandra.so.2
 
 %files devel
 %defattr(-,root,root)
-%{_libdir}/libcassandra.so
-%{_libdir}/libcassandra.so.2
 %{_includedir}/*.h
+%{_libdir}/libcassandra.so
 %{_libdir}/pkgconfig/cassandra.pc
 
 %files devel-static
