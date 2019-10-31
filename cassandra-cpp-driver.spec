@@ -1,5 +1,5 @@
 Name:    cassandra-cpp-driver
-Version: 2.13.0
+Version: 2.14.0
 Release: 0
 Summary: DataStax C/C++ Driver for Apache Cassandra
 

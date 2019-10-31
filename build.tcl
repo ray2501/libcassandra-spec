@@ -1,8 +1,8 @@
 #!/usr/bin/tclsh
 
 set arch "x86_64"
-set base "cpp-driver-2.13.0"
-set fileurl "https://github.com/datastax/cpp-driver/archive/2.13.0.tar.gz"
+set base "cpp-driver-2.14.0"
+set fileurl "https://github.com/datastax/cpp-driver/archive/2.14.0.tar.gz"
 
 set var [list wget $fileurl -O $base.tar.gz]
 exec >@stdout 2>@stderr {*}$var
