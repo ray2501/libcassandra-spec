@@ -14,7 +14,8 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildRequires: cmake >= 2.6.4
 BuildRequires: make
 BuildRequires: gcc-c++
-BuildRequires: libuv-devel 
+BuildRequires: libuv-devel
+BuildRequires: zlib-devel
 BuildRequires: openssl-devel >= 0.9.8e
 
 %description
